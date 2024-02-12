@@ -1,0 +1,56 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-backend-staging-152058-authRole",
+      "UnauthRoleArn": "arn:aws:iam::483086609020:role/amplify-backend-staging-152058-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::483086609020:role/amplify-backend-staging-152058-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-backend-staging-152058-deployment",
+      "UnauthRoleName": "amplify-backend-staging-152058-unauthRole",
+      "StackName": "amplify-backend-staging-152058",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:483086609020:stack/amplify-backend-staging-152058/852a4860-b2f0-11ee-b362-06d0a1ab3ff3",
+      "AmplifyAppId": "d3p1lwxvhkdvru"
+    },
+    "categories": {
+      "auth": {
+        "Backend": {}
+      },
+      "function": {
+        "BackendFunction": {
+          "deploymentBucketName": "amplify-backend-staging-152058-deployment",
+          "s3Key": "amplify-builds/BackendFunction-4a49344d6e474f593668-build.zip"
+        },
+        "SecondCard": {
+          "deploymentBucketName": "amplify-backend-staging-152058-deployment",
+          "s3Key": "amplify-builds/SecondCard-63445468305277706544-build.zip"
+        },
+        "ApplePayFunction": {
+          "deploymentBucketName": "amplify-backend-staging-152058-deployment",
+          "s3Key": "amplify-builds/ApplePayFunction-546952666f4d58353656-build.zip"
+        }
+      },
+      "api": {
+        "Backend": {},
+        "stripeLamdaApi": {}
+      },
+      "storage": {
+        "s3backendstoragef387ec35": {}
+      },
+      "analytics": {
+        "push": {},
+        "Pinpoint": {
+          "Name": "push-staging",
+          "Id": "1794526f5ad4457d8c67d9cc9d5f916c",
+          "Region": "ap-northeast-1"
+        }
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "push-staging",
+          "Id": "1794526f5ad4457d8c67d9cc9d5f916c",
+          "Region": "ap-northeast-1"
+        }
+      }
+    }
+  }
+}
